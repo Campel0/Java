@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00 - Preparação do Ambiente/00 - Preparação do Ambiente.iml" filepath="$PROJECT_DIR$/00 - Preparação do Ambiente/00 - Preparação do Ambiente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/00.1 - Fontes de Código.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/00.1 - Fontes de Código.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02 - Entrada e Saída Padrão Formatados/02 - Entrada e Saída Padrão Formatados.iml" filepath="$PROJECT_DIR$/02 - Entrada e Saída Padrão Formatados/02 - Entrada e Saída Padrão Formatados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03 - Estruturas Condicionais/03 - Estruturas Condicionais.iml" filepath="$PROJECT_DIR$/03 - Estruturas Condicionais/03 - Estruturas Condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-mouse/exemplo-mouse.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-mouse/exemplo-mouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-teclado/exemplo-teclado.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-teclado/exemplo-teclado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/modelo-exercicios-criativos/modelo-exercicios-criativos.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/modelo-exercicios-criativos/modelo-exercicios-criativos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/projeto-bolinha/projeto-bolinha.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/projeto-bolinha/projeto-bolinha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.1 - Fontes de Código/projeto-pong/projeto-pong.iml" filepath="$PROJECT_DIR$/00.1 - Fontes de Código/projeto-pong/projeto-pong.iml" />
+    </modules>
+  </component>
+</project>

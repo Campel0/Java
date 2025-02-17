@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-mouse/lib/JSGE-v1.4.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-mouse/lib/jinput-2.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/exemplo-mouse/lib/JSGE-v1.4.7-src.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

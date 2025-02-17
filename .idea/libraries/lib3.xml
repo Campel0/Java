@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/projeto-bolinha/lib/JSGE-v1.4.7-src.jar!/" />
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/projeto-bolinha/lib/jinput-2.0.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/00.1 - Fontes de Código/projeto-bolinha/lib/JSGE-v1.4.7-bin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
