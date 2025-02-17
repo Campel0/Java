@@ -10,6 +10,7 @@ public class Exercicio2$15 {
         System.out.println( "Entre com sua idade: " );
         idade = Integer.parseInt( scan.nextLine() );
 
+        // Verificação de idade para eleição
         if ( idade < 16 ) {
             System.out.println( "Nao eleitor." );
         }

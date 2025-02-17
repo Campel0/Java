@@ -18,6 +18,7 @@ public class Exercicio2$5 {
         System.out.print( "N3: " );
         n3 = Integer.parseInt( scan.nextLine() );
 
+        // troca de valores entre variáveis em ordem decrescente.
         if( n1 < n2 ){
             int temp = n1;
             n1 = n2;

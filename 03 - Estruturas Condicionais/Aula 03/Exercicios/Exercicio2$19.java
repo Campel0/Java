@@ -19,14 +19,14 @@ public class Exercicio2$19 {
                 System.out.println("Entre com a temperatura em graus Celsius: ");
                 temperatura = scan.nextDouble();
                 System.out.printf("%.2f graus Celsius correspondem a %.2f graus Fahrenheit",
-                        temperatura, (1.8 * temperatura + 32));
+                        temperatura, (1.8 * temperatura + 32)); // calculo de graus em Fahrenheit
                 break;
 
             case 'F':
                 System.out.println("Entre com a temperatura em graus Fahrenheit: ");
                 temperatura = scan.nextDouble();
                 System.out.printf("%.2f graus Fahrenheit correspondem a %.2f graus Celsius",
-                        temperatura, ((temperatura - 32) / 1.8));
+                        temperatura, ((temperatura - 32) / 1.8)); // calculo de graus em Celsius
                 break;
 
             default:

@@ -19,7 +19,7 @@ public class Exercicio2$4 {
         n2 = Integer.parseInt( scan.nextLine() );
 
         // Ordenando os números em ordem crescente
-
+        // Troca de valores de variáveis
         if( n1 > n2 ){
             int temp = n1;
             n1 = n2;

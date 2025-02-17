@@ -18,6 +18,7 @@ public class Exercicio2$14 {
 
         System.out.printf( "IMC: %.2f\n", imc );
 
+        // Condições para cada valor do IMC
         if ( imc < 17.0 ){
             System.out.print( "Voce esta muito abaixo do peso ideal!" );
         }

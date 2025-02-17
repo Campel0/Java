@@ -23,13 +23,13 @@ public class Exercicio2$18 {
 
         char opcao;
 
-        opcao = scan.next().charAt(0);
+        opcao = scan.next().charAt(0); // armazena a opção escolhida como caractere
 
         System.out.printf( "Operacao: %c\n", opcao );
 
         switch ( opcao ) {
             case '+':
-            System.out.printf( "%.2f + %.2f = %.2f", n1, n2, ( n1 + n2 ) );
+            System.out.printf( "%.2f + %.2f = %.2f", n1, n2, ( n1 + n2 ) ); // faz a soma dentro do switch
             break;
 
             case '-': double subtracao = n1 - n2;

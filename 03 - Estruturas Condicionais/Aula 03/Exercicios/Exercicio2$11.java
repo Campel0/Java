@@ -16,7 +16,9 @@ public class Exercicio2$11 {
 
         double somaAngulos = a + b + c;
 
+        // Verificação se os ângulos formam um triângulo.
         if ( somaAngulos == 180 ) {
+            // Se essa condição for verdadeira, o programa continua para a classificação do triângulo.
             if ( a == 90 || b == 90 || c == 90 ) {
                 System.out.println( "Triangulo RETANGULO" );
             } else if ( a > 90 || b > 90 || c > 90 ) {

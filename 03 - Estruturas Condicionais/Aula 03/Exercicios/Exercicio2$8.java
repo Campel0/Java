@@ -20,6 +20,7 @@ public class Exercicio2$8 {
 
         double soma;
 
+        // Vai fazer a soma dos dois maiores numeros.
         if( n1 <= n2 && n1 <= n3 ){
             soma = n3 + n2;
         }

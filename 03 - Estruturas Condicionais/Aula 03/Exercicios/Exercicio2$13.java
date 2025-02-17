@@ -32,6 +32,7 @@ public class Exercicio2$13 {
          * }
          */
 
+
         /*
          * Substituir a menor nota pela nota optativa, se for maior
          * aqui usamos os operadores logicos ( minha dificuldade )

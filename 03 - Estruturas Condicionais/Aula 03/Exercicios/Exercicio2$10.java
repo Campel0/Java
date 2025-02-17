@@ -18,6 +18,8 @@ public class Exercicio2$10 {
         System.out.print( "c: " );
         lado3 = Double.parseDouble( scan.nextLine() );
 
+        //verifica a desigualdade triangular, ou seja, se a soma de dois lados é sempre maior que o terceiro.
+        // Se essa condição for falsa, os valores não formam um triângulo.
         if( lado1 + lado2 > lado3 && lado1 + lado3 > lado2 && lado2 + lado3 > lado1 ) {
             if (lado1 == lado2 && lado2 == lado3) {
                 System.out.print("Triangulo EQUILATERO");
