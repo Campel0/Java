@@ -11,7 +11,8 @@ public class Exercicio2$1 {
         System.out.println( "Entre com um numero: " );
         n1 = Integer.parseInt( scan.nextLine() );
 
-        if(  n1 % 2 == 0 ){
+        if(  n1 % 2 == 0 ) // % é o resto da divisão. // então se o resto da divisão do numero com 2 for 0 será par.
+        {
             System.out.printf( "O numero %d e par.", n1 );
         }
         else{

@@ -16,18 +16,32 @@ public class Exercicio2$11 {
 
         double somaAngulos = a + b + c;
 
-        // Verificação se os ângulos formam um triângulo.
+        // Verificação se os ângulos formam um triângulo válido.
+// A soma dos ângulos internos de qualquer triângulo sempre deve ser igual a 180 graus.
         if ( somaAngulos == 180 ) {
-            // Se essa condição for verdadeira, o programa continua para a classificação do triângulo.
-            if ( a == 90 || b == 90 || c == 90 ) {
+
+            // Se a soma for 180, classificamos o triângulo com base nos ângulos:
+
+            // Se pelo menos um dos ângulos for exatamente 90 graus, o triângulo é RETÂNGULO.
+            if ( a == 90 || b == 90 || c == 90 )
+            {
                 System.out.println( "Triangulo RETANGULO" );
-            } else if ( a > 90 || b > 90 || c > 90 ) {
+            }
+            // Se algum ângulo for maior que 90 graus, o triângulo é OBTUSÂNGULO.
+            else if ( a > 90 || b > 90 || c > 90 )
+            {
                 System.out.println( "Triangulo OBTUSANGULO" );
-            } else {
+            }
+            // Se todos os ângulos forem menores que 90 graus, o triângulo é ACUTÂNGULO.
+            else
+            {
                 System.out.println( "Triangulo ACUTANGULO" );
             }
-        } else {
-            System.out.println( "As medidas fornecidas dos angulos nao representam um triangulo valido!");
+        }
+        else
+        {
+            // Se a soma dos ângulos não for 180 graus, não é possível formar um triângulo válido.
+            System.out.println( "As medidas fornecidas dos angulos nao representam um triangulo valido!" );
         }
 
         scan.close();

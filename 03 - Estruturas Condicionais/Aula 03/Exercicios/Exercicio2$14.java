@@ -22,6 +22,7 @@ public class Exercicio2$14 {
         if ( imc < 17.0 ){
             System.out.print( "Voce esta muito abaixo do peso ideal!" );
         }
+            // usamos o operador E para verificar se as duas entradas são verdadeiras
             else if ( 17.0 <= imc && imc < 18.5 ){
                 System.out.print( "Voce esta abaixo do peso ideal!" );
         }

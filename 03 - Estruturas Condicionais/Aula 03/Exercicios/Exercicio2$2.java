@@ -15,7 +15,8 @@ public class Exercicio2$2 {
         System.out.print( "Entre com outro numero: " );
         n2 = Integer.parseInt( scan.nextLine() );
 
-        if( n1 <= n2 ){
+        if( n1 <= n2 ) // Verifica se n2 é maior ou igual que n1 e ordena o numero maior primeiro em forma crescente.
+        {
             System.err.printf( "Ordem crescente: %d <= %d", n1, n2);
         }
         else{

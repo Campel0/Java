@@ -22,38 +22,38 @@ public class Exercicio2$12 {
         System.out.print( "Idade Mulher 2: " );
         mulher2 = Integer.parseInt( scan.nextLine() );
 
-        // verifica quem é o mais velho/novo
-
+        // Determinar quem é o homem mais velho e o mais novo
         int homemMaisVelho;
         int homemMaisNovo;
 
-        if ( homem1 > homem2  ){
-            homemMaisVelho = homem1;
-            homemMaisNovo = homem2;
+        // Compara as idades dos dois homens
+        if ( homem1 > homem2  ) {
+            homemMaisVelho = homem1;  // Se homem1 for mais velho, ele recebe essa variável
+            homemMaisNovo = homem2;   // homem2 é o mais novo
         }
-        else{
-            homemMaisVelho = homem2;
-            homemMaisNovo = homem1;
+        else {
+            homemMaisVelho = homem2;  // Se homem2 for mais velho, ele recebe essa variável
+            homemMaisNovo = homem1;   // homem1 é o mais novo
         }
 
-        // verifica quem é a mais velha/nova
-
+        // Determinar quem é a mulher mais velha e a mais nova
         int mulherMaisVelha;
         int mulherMaisNova;
 
-        if ( mulher1 > mulher2 ){
-            mulherMaisVelha = mulher1;
-            mulherMaisNova = mulher2;
+        // Compara as idades das duas mulheres
+        if ( mulher1 > mulher2 ) {
+            mulherMaisVelha = mulher1;  // Se mulher1 for mais velha, ela recebe essa variável
+            mulherMaisNova = mulher2;   // mulher2 é a mais nova
         }
-        else{
-            mulherMaisVelha = mulher2;
-            mulherMaisNova = mulher1;
+        else {
+            mulherMaisVelha = mulher2;  // Se mulher2 for mais velha, ela recebe essa variável
+            mulherMaisNova = mulher1;   // mulher1 é a mais nova
         }
 
-        // calculando
+        // Realizando os cálculos pedidos
+        int soma = homemMaisVelho + mulherMaisNova;  // Soma do homem mais velho com a mulher mais nova
+        int produto = homemMaisNovo * mulherMaisVelha; // Produto do homem mais novo com a mulher mais velha
 
-        int soma = homemMaisVelho + mulherMaisNova;
-        int produto = homemMaisNovo * mulherMaisVelha;
 
         System.out.printf( "Idade homem mais velho + idade mulher mais nova: %d\n", soma );
         System.out.printf( "Idade homem mais novo * idade mulher mais velha: %d\n", produto );

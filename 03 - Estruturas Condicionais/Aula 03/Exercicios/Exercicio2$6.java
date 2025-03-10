@@ -10,12 +10,14 @@ public class Exercicio2$6 {
         System.out.print( "Entre com um valor: " );
         n1 = Double.parseDouble( scan.nextLine() );
 
-        if( n1 > 20 ){
-            double metade = n1 / 2;
+        if( n1 > 20 ) // se o numero digitador for maior que 20 ele ira executar essa condição
+        {
+            double metade = n1 / 2; // ira dividir o numero por 2
             System.out.printf( "A metade de %.2f e %.2f", n1, metade );
         }
-        if( n1 < 20 ){
-            double triplo = n1 * 3;
+        else // se o numero for menor que 20 ele ira executar essa condição
+        {
+            double triplo = n1 * 3; // ira multiplicar o numero por 3
             System.out.printf( "O triplo de %.2f e %.2f", n1, triplo );
         }
 

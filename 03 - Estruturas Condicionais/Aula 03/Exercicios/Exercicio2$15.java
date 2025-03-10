@@ -14,10 +14,14 @@ public class Exercicio2$15 {
         if ( idade < 16 ) {
             System.out.println( "Nao eleitor." );
         }
+
+        // usamor o operador E para verificar se as duas entradas são verdadeiras
         else if ( idade >= 18 && idade <= 65 ) {
             System.out.println( "Eleitor obrigatorio.");
         }
-        else { // Para idades entre 16-17 ou maiores que 65
+
+        // Para idades entre 16-17 ou maiores que 65
+        else {
             System.out.println( "Eleitor facultativo." );
         }
 

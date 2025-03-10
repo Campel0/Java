@@ -38,22 +38,28 @@ public class Exercicio2$13 {
          * aqui usamos os operadores logicos ( minha dificuldade )
          */
 
-        if ( notaOptativa > nota1 && nota1 <= nota2 ){
-            nota1 = notaOptativa;
-        } else if ( notaOptativa > nota2 && nota2 <= nota1 ){
-            nota2 = notaOptativa;
+        if ( notaOptativa > nota1 && nota1 <= nota2 ) // se nota1 for menor que a optativa ou que nota2 executara
+        {
+            nota1 = notaOptativa; // nota1 ira receber o valor de notaOptativa
+        }
+        else if ( notaOptativa > nota2 && nota2 <= nota1 ) // se nota2 for menor que a optativa ou que nota1 executara
+        {
+            nota2 = notaOptativa; // nota2 ira receber o valor de notaOptativa
         }
 
-        double media = ( nota1 + nota2 ) / 2;
+        double media = ( nota1 + nota2 ) / 2; // calculando a media
         System.out.printf( "Media: %.2f\n", media );
 
-        if( media >= 6.0 ){
+        if( media >= 6.0 ) // se a media for maior ou igual a 6
+        {
             System.out.println( "Aprovado!" );
         }
-        else if( 4.0 <= media && media < 6.00 ){
+        else if( 4.0 <= media && media < 6.00 ) // senão se a media for maior que 4 ou menor que 6
+        {
             System.out.println( "Exame." );
         }
-        else if( media < 4.00 ){
+        else // senão executara aqui
+        {
             System.out.println( "Reprovado..." );
         }
 
