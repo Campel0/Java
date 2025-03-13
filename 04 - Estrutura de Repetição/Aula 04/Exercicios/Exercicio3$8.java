@@ -1,3 +1,5 @@
+// Validação de Entrada e Impressão de Sequência Numérica Crescente (Negativos)
+
 import java.util.Scanner;
 
 public class Exercicio3$8 {
@@ -11,7 +13,9 @@ public class Exercicio3$8 {
             System.out.println("Valor incorreto (positivo)");
         }
         else{
-            for(int i = 0; i >= numero; i--) // Dificuldade no la
+            // loço irá começar em 0 e irá percorrer até o número negativo digitado
+            // e até ele não ser igual ele ira sendo decrementado 
+            for(int i = 0; i >= numero; i--) // Dificuldade no laço
             {
                 System.out.printf("%d ", i);
             }

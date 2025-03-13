@@ -1,3 +1,5 @@
+// Cálculo do Somatório de um Intervalo
+
 import java.util.Scanner;
 
 public class Exercicio3$14 {
@@ -10,6 +12,7 @@ public class Exercicio3$14 {
         System.out.print("N2: ");
         int n2 = Integer.parseInt(scan.nextLine());
 
+        // verifica o maior e menor número digitado
         int menor = Math.min(n1, n2);
         int maior = Math.max(n1, n2);
 
@@ -17,7 +20,7 @@ public class Exercicio3$14 {
 
         for(int i = menor; i <= maior; i++)
         {
-            soma += i;
+            soma += i; // soma e atualiza a variável
         }
 
         System.out.printf("Somatorio entre %d e %d: %d", menor, maior, soma);

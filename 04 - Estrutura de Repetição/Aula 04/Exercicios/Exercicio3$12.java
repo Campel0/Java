@@ -1,3 +1,5 @@
+// Contagem de Números Pares em Intervalo
+
 import java.util.Scanner;
 
 public class Exercicio3$12 {
@@ -16,14 +18,14 @@ public class Exercicio3$12 {
 
         int contadorPares = 0; // Contador de numeros pares
 
-        // Percorrer o intevalo e conta os pares
+        // Percorrer o intevalo e conta quantos pares tem
         for(int i = menor; i <= maior; i++){
             if(i % 2 == 0){
-                contadorPares++;
+                contadorPares++; // incrementa a variável
             }
         }
 
-        System.out.printf("Numeros pares entre %d e %d: %d", n1, n2, contadorPares);
+        System.out.printf("\nNumeros pares entre %d e %d: %d", menor, maior, contadorPares);
 
         scan.close();
 

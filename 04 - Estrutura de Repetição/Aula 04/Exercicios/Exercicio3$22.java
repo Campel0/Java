@@ -9,11 +9,10 @@ public class Exercicio3$22 {
 
         // Ler os 5 números e verificar se são positivos
         for (int i = 0; i < 5; i++) {
-
             System.out.print("N" + (i + 1) + ": ");
             numeros[i] = scan.nextInt();
             if (numeros[i] <= 0) {
-                invalido = true;
+                invalido = true; // Marca como inválido se o número não for positivo
             }
             if (numeros[i] > max) {
                 max = numeros[i]; // Encontrar o maior número para definir o topo do gráfico
@@ -23,8 +22,8 @@ public class Exercicio3$22 {
 
         // Se houver número negativo ou zero, exibir mensagem e encerrar
         if (invalido) {
-            System.out.println("Forneça apenas números positivos.");
-            return;
+            System.out.println("Forneca apenas numeros positivos.");
+            return; // Encerra o programa se houver números inválidos
         }
 
         // Exibir o gráfico de barras
@@ -34,7 +33,7 @@ public class Exercicio3$22 {
                 if (numeros[j] >= i) {
                     System.out.print("*");
                 } else {
-                    System.out.print(" ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();

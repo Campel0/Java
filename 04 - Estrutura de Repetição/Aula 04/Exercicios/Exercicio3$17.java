@@ -1,3 +1,5 @@
+// Obtenção de Termo Específico da Série de Fibonacci
+
 import java.util.Scanner;
 
 public class Exercicio3$17 {
@@ -7,11 +9,16 @@ public class Exercicio3$17 {
         System.out.print("Digite o número do termo da sequência de Fibonacci desejado: ");
         int n = scanner.nextInt();
 
-        int a = 0, b = 1, temp;
-        if (n == 0) {
-            System.out.println("Fibonacci de 0 e 1");
-        } else {
-            for (int i = 1; i < n; i++) {
+        int a = 1;
+        int b = 1;
+        int temp;
+
+        if (n == 1) {
+            System.out.println("Fibonacci de 1 e 1");
+        }
+        else{
+            // fazemos o laço para buscar o termo e fazer a troca do b para o termo ideal
+            for (int i = 2; i <= n; i++) {
                 temp = a + b;
                 a = b;
                 b = temp;
