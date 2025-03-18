@@ -1,3 +1,5 @@
+// Impressão de Gráfico de Barras com Validação de Entrada
+
 import java.util.Scanner;
 
 public class Exercicio3$22 {
@@ -28,12 +30,12 @@ public class Exercicio3$22 {
 
         // Exibir o gráfico de barras
         for (int i = max; i > 0; i--) {
-            System.out.printf("%04d ", i); // Imprime o número formatado com 4 dígitos
+            System.out.printf("%04d  ", i); // Imprime o número formatado com 4 dígitos
             for (int j = 0; j < 5; j++) {
                 if (numeros[j] >= i) {
                     System.out.print("*");
                 } else {
-                    System.out.print("  ");
+                    System.out.print(" ");
                 }
             }
             System.out.println();

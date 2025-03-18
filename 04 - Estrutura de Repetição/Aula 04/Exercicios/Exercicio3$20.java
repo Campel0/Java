@@ -1,3 +1,5 @@
+// mpressão de Padrão com Espaços e Loop For
+
 public class Exercicio3$20 {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+// Impressão de Triângulo de Asteriscos com Altura Definida
+
 import java.util.Scanner;
 
 public class Exercicio3$21 {
@@ -32,5 +34,7 @@ public class Exercicio3$21 {
                 System.out.println();
             }
         }
+
+        scan.close();
     }
 }
